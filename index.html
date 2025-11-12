@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review form</title>
+        <style>
+        body{
+            background-color: rgb(215, 204, 226);
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <form>
+
+        <fieldset>
+            <legend><b>Your Details:</b></legend>
+            <p>
+                Name: <input type="text" name="name">
+            </p>
+            <p>
+                Email: <input type="email" name="email">
+            </p>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend><b>Your Review:</b></legend>
+
+            <p>
+                How did you hear about us?
+                <select name="source">
+                    <option>Google</option>
+                    <option>Friend</option>
+                    <option>Advertisement</option>
+                    <option>Other</option>
+                </select>
+            </p>
+
+            <p>
+                Would you visit again? <br>
+                <input type="radio" name="visit" value="yes"> Yes
+                <input type="radio" name="visit" value="no"> No
+                <input type="radio" name="visit" value="maybe"> Maybe
+            </p>
+
+            <p>
+                Comments: <br>
+                <textarea name="comments" rows="4" cols="40"></textarea>
+            </p>
+
+            <p>
+                <input type="checkbox" name="updates" checked> Sign me up for email updates
+            </p>
+
+            <p>
+                <input type="submit" value="Submit review">
+            </p>
+
+        </fieldset>
+
+    </form>
+
+
+
+</body>
+</html>
+
+
+
